@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B346BDE23166F42EC7F58C7 /* libPods-JYEmpty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 135A94D6FBC604E84CA781C8 /* libPods-JYEmpty.a */; };
+		F466BFCA1D9A41540058755A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F466BFC91D9A41540058755A /* main.m */; };
+		F466BFCD1D9A41540058755A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F466BFCC1D9A41540058755A /* AppDelegate.m */; };
+		F466BFD01D9A41540058755A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F466BFCF1D9A41540058755A /* ViewController.m */; };
+		F466BFD31D9A41540058755A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F466BFD11D9A41540058755A /* Main.storyboard */; };
+		F466BFD51D9A41540058755A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F466BFD41D9A41540058755A /* Assets.xcassets */; };
+		F466BFD81D9A41540058755A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F466BFD61D9A41540058755A /* LaunchScreen.storyboard */; };
+		F466BFE31D9A41540058755A /* JYEmptyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F466BFE21D9A41540058755A /* JYEmptyTests.m */; };
+		F466BFEE1D9A41540058755A /* JYEmptyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F466BFED1D9A41540058755A /* JYEmptyUITests.m */; };
+		F466C0051D9A416C0058755A /* JYEmptyConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F466BFFE1D9A416C0058755A /* JYEmptyConst.m */; };
+		F466C0061D9A416C0058755A /* JYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F466C0001D9A416C0058755A /* JYEmptyView.m */; };
+		F466C0071D9A416C0058755A /* UITableView+JYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F466C0021D9A416C0058755A /* UITableView+JYEmptyView.m */; };
+		F466C0081D9A416C0058755A /* UIView+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = F466C0041D9A416C0058755A /* UIView+Awesome.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F466BFDF1D9A41540058755A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F466BFBD1D9A41540058755A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F466BFC41D9A41540058755A;
+			remoteInfo = JYEmpty;
+		};
+		F466BFEA1D9A41540058755A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F466BFBD1D9A41540058755A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F466BFC41D9A41540058755A;
+			remoteInfo = JYEmpty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		135A94D6FBC604E84CA781C8 /* libPods-JYEmpty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JYEmpty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DB44BB14C140215938AC4B /* Pods-JYEmpty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYEmpty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYEmpty/Pods-JYEmpty.debug.xcconfig"; sourceTree = "<group>"; };
+		F466BFC51D9A41540058755A /* JYEmpty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYEmpty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F466BFC91D9A41540058755A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F466BFCB1D9A41540058755A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F466BFCC1D9A41540058755A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F466BFCE1D9A41540058755A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F466BFCF1D9A41540058755A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F466BFD21D9A41540058755A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F466BFD41D9A41540058755A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F466BFD71D9A41540058755A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F466BFD91D9A41540058755A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F466BFDE1D9A41540058755A /* JYEmptyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYEmptyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F466BFE21D9A41540058755A /* JYEmptyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYEmptyTests.m; sourceTree = "<group>"; };
+		F466BFE41D9A41540058755A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F466BFE91D9A41540058755A /* JYEmptyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYEmptyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F466BFED1D9A41540058755A /* JYEmptyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYEmptyUITests.m; sourceTree = "<group>"; };
+		F466BFEF1D9A41540058755A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F466BFFC1D9A416C0058755A /* JYEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYEmpty.h; sourceTree = "<group>"; };
+		F466BFFD1D9A416C0058755A /* JYEmptyConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYEmptyConst.h; sourceTree = "<group>"; };
+		F466BFFE1D9A416C0058755A /* JYEmptyConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYEmptyConst.m; sourceTree = "<group>"; };
+		F466BFFF1D9A416C0058755A /* JYEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYEmptyView.h; sourceTree = "<group>"; };
+		F466C0001D9A416C0058755A /* JYEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYEmptyView.m; sourceTree = "<group>"; };
+		F466C0011D9A416C0058755A /* UITableView+JYEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+JYEmptyView.h"; sourceTree = "<group>"; };
+		F466C0021D9A416C0058755A /* UITableView+JYEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+JYEmptyView.m"; sourceTree = "<group>"; };
+		F466C0031D9A416C0058755A /* UIView+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Awesome.h"; sourceTree = "<group>"; };
+		F466C0041D9A416C0058755A /* UIView+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Awesome.m"; sourceTree = "<group>"; };
+		FC421AE56A4E2C7B6EB06B82 /* Pods-JYEmpty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYEmpty.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYEmpty/Pods-JYEmpty.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F466BFC21D9A41540058755A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B346BDE23166F42EC7F58C7 /* libPods-JYEmpty.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F466BFDB1D9A41540058755A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F466BFE61D9A41540058755A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B7E6375F9F0BD02D9A5C1F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96DB44BB14C140215938AC4B /* Pods-JYEmpty.debug.xcconfig */,
+				FC421AE56A4E2C7B6EB06B82 /* Pods-JYEmpty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62D738E72E2FAFAADA58370B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				135A94D6FBC604E84CA781C8 /* libPods-JYEmpty.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F466BFBC1D9A41540058755A = {
+			isa = PBXGroup;
+			children = (
+				F466BFC71D9A41540058755A /* JYEmpty */,
+				F466BFE11D9A41540058755A /* JYEmptyTests */,
+				F466BFEC1D9A41540058755A /* JYEmptyUITests */,
+				F466BFC61D9A41540058755A /* Products */,
+				5B7E6375F9F0BD02D9A5C1F7 /* Pods */,
+				62D738E72E2FAFAADA58370B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F466BFC61D9A41540058755A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F466BFC51D9A41540058755A /* JYEmpty.app */,
+				F466BFDE1D9A41540058755A /* JYEmptyTests.xctest */,
+				F466BFE91D9A41540058755A /* JYEmptyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F466BFC71D9A41540058755A /* JYEmpty */ = {
+			isa = PBXGroup;
+			children = (
+				F466BFFB1D9A416C0058755A /* JYEmpty */,
+				F466BFCB1D9A41540058755A /* AppDelegate.h */,
+				F466BFCC1D9A41540058755A /* AppDelegate.m */,
+				F466BFCE1D9A41540058755A /* ViewController.h */,
+				F466BFCF1D9A41540058755A /* ViewController.m */,
+				F466BFC81D9A41540058755A /* Supporting Files */,
+			);
+			path = JYEmpty;
+			sourceTree = "<group>";
+		};
+		F466BFC81D9A41540058755A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F466BFD11D9A41540058755A /* Main.storyboard */,
+				F466BFD41D9A41540058755A /* Assets.xcassets */,
+				F466BFD61D9A41540058755A /* LaunchScreen.storyboard */,
+				F466BFD91D9A41540058755A /* Info.plist */,
+				F466BFC91D9A41540058755A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F466BFE11D9A41540058755A /* JYEmptyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F466BFE21D9A41540058755A /* JYEmptyTests.m */,
+				F466BFE41D9A41540058755A /* Info.plist */,
+			);
+			path = JYEmptyTests;
+			sourceTree = "<group>";
+		};
+		F466BFEC1D9A41540058755A /* JYEmptyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F466BFED1D9A41540058755A /* JYEmptyUITests.m */,
+				F466BFEF1D9A41540058755A /* Info.plist */,
+			);
+			path = JYEmptyUITests;
+			sourceTree = "<group>";
+		};
+		F466BFFB1D9A416C0058755A /* JYEmpty */ = {
+			isa = PBXGroup;
+			children = (
+				F466BFFC1D9A416C0058755A /* JYEmpty.h */,
+				F466BFFD1D9A416C0058755A /* JYEmptyConst.h */,
+				F466BFFE1D9A416C0058755A /* JYEmptyConst.m */,
+				F466BFFF1D9A416C0058755A /* JYEmptyView.h */,
+				F466C0001D9A416C0058755A /* JYEmptyView.m */,
+				F466C0011D9A416C0058755A /* UITableView+JYEmptyView.h */,
+				F466C0021D9A416C0058755A /* UITableView+JYEmptyView.m */,
+				F466C0031D9A416C0058755A /* UIView+Awesome.h */,
+				F466C0041D9A416C0058755A /* UIView+Awesome.m */,
+			);
+			path = JYEmpty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F466BFC41D9A41540058755A /* JYEmpty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F466BFF21D9A41540058755A /* Build configuration list for PBXNativeTarget "JYEmpty" */;
+			buildPhases = (
+				B815F0CE6126A4BFF5228DAE /* [CP] Check Pods Manifest.lock */,
+				F466BFC11D9A41540058755A /* Sources */,
+				F466BFC21D9A41540058755A /* Frameworks */,
+				F466BFC31D9A41540058755A /* Resources */,
+				F4A94CD71CC87A91452915A0 /* [CP] Embed Pods Frameworks */,
+				1EC2D6CEEE41627F1DF1EF07 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYEmpty;
+			productName = JYEmpty;
+			productReference = F466BFC51D9A41540058755A /* JYEmpty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F466BFDD1D9A41540058755A /* JYEmptyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F466BFF51D9A41540058755A /* Build configuration list for PBXNativeTarget "JYEmptyTests" */;
+			buildPhases = (
+				F466BFDA1D9A41540058755A /* Sources */,
+				F466BFDB1D9A41540058755A /* Frameworks */,
+				F466BFDC1D9A41540058755A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F466BFE01D9A41540058755A /* PBXTargetDependency */,
+			);
+			name = JYEmptyTests;
+			productName = JYEmptyTests;
+			productReference = F466BFDE1D9A41540058755A /* JYEmptyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F466BFE81D9A41540058755A /* JYEmptyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F466BFF81D9A41540058755A /* Build configuration list for PBXNativeTarget "JYEmptyUITests" */;
+			buildPhases = (
+				F466BFE51D9A41540058755A /* Sources */,
+				F466BFE61D9A41540058755A /* Frameworks */,
+				F466BFE71D9A41540058755A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F466BFEB1D9A41540058755A /* PBXTargetDependency */,
+			);
+			name = JYEmptyUITests;
+			productName = JYEmptyUITests;
+			productReference = F466BFE91D9A41540058755A /* JYEmptyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F466BFBD1D9A41540058755A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Davis;
+				TargetAttributes = {
+					F466BFC41D9A41540058755A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F466BFDD1D9A41540058755A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F466BFC41D9A41540058755A;
+					};
+					F466BFE81D9A41540058755A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F466BFC41D9A41540058755A;
+					};
+				};
+			};
+			buildConfigurationList = F466BFC01D9A41540058755A /* Build configuration list for PBXProject "JYEmpty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F466BFBC1D9A41540058755A;
+			productRefGroup = F466BFC61D9A41540058755A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F466BFC41D9A41540058755A /* JYEmpty */,
+				F466BFDD1D9A41540058755A /* JYEmptyTests */,
+				F466BFE81D9A41540058755A /* JYEmptyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F466BFC31D9A41540058755A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F466BFD81D9A41540058755A /* LaunchScreen.storyboard in Resources */,
+				F466BFD51D9A41540058755A /* Assets.xcassets in Resources */,
+				F466BFD31D9A41540058755A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F466BFDC1D9A41540058755A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F466BFE71D9A41540058755A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EC2D6CEEE41627F1DF1EF07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYEmpty/Pods-JYEmpty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B815F0CE6126A4BFF5228DAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A94CD71CC87A91452915A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYEmpty/Pods-JYEmpty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F466BFC11D9A41540058755A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F466BFD01D9A41540058755A /* ViewController.m in Sources */,
+				F466C0081D9A416C0058755A /* UIView+Awesome.m in Sources */,
+				F466BFCD1D9A41540058755A /* AppDelegate.m in Sources */,
+				F466C0051D9A416C0058755A /* JYEmptyConst.m in Sources */,
+				F466C0071D9A416C0058755A /* UITableView+JYEmptyView.m in Sources */,
+				F466BFCA1D9A41540058755A /* main.m in Sources */,
+				F466C0061D9A416C0058755A /* JYEmptyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F466BFDA1D9A41540058755A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F466BFE31D9A41540058755A /* JYEmptyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F466BFE51D9A41540058755A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F466BFEE1D9A41540058755A /* JYEmptyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F466BFE01D9A41540058755A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F466BFC41D9A41540058755A /* JYEmpty */;
+			targetProxy = F466BFDF1D9A41540058755A /* PBXContainerItemProxy */;
+		};
+		F466BFEB1D9A41540058755A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F466BFC41D9A41540058755A /* JYEmpty */;
+			targetProxy = F466BFEA1D9A41540058755A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F466BFD11D9A41540058755A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F466BFD21D9A41540058755A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F466BFD61D9A41540058755A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F466BFD71D9A41540058755A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F466BFF01D9A41540058755A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F466BFF11D9A41540058755A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F466BFF31D9A41540058755A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96DB44BB14C140215938AC4B /* Pods-JYEmpty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYEmpty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connxun.JYEmpty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F466BFF41D9A41540058755A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC421AE56A4E2C7B6EB06B82 /* Pods-JYEmpty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYEmpty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connxun.JYEmpty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F466BFF61D9A41540058755A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYEmptyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connxun.JYEmptyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYEmpty.app/JYEmpty";
+			};
+			name = Debug;
+		};
+		F466BFF71D9A41540058755A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYEmptyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connxun.JYEmptyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYEmpty.app/JYEmpty";
+			};
+			name = Release;
+		};
+		F466BFF91D9A41540058755A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYEmptyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connxun.JYEmptyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYEmpty;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F466BFFA1D9A41540058755A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYEmptyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connxun.JYEmptyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYEmpty;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F466BFC01D9A41540058755A /* Build configuration list for PBXProject "JYEmpty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F466BFF01D9A41540058755A /* Debug */,
+				F466BFF11D9A41540058755A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F466BFF21D9A41540058755A /* Build configuration list for PBXNativeTarget "JYEmpty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F466BFF31D9A41540058755A /* Debug */,
+				F466BFF41D9A41540058755A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F466BFF51D9A41540058755A /* Build configuration list for PBXNativeTarget "JYEmptyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F466BFF61D9A41540058755A /* Debug */,
+				F466BFF71D9A41540058755A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F466BFF81D9A41540058755A /* Build configuration list for PBXNativeTarget "JYEmptyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F466BFF91D9A41540058755A /* Debug */,
+				F466BFFA1D9A41540058755A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F466BFBD1D9A41540058755A /* Project object */;
+}
